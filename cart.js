@@ -16,3 +16,21 @@ function renderItems (){
             </div>
             `
         }
+    }else{
+        console.log('cart item empty ha maalik')
+        div.innerHTML = `
+        <h3 class="text-center">No Item Found...</h3>
+        `
+    }
+}
+
+renderItems()
+
+
+
+// localStorage.setItem('kis naam sa krwana ha' , 'value stringify wali');
+
+// localStorage.getItem('kis item sa save krwaya ha');
+
+// JSON.stringify()
+// JSON.parse()
